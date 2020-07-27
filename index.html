@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen gallery expand js</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    
+    <h4>Se uso 2 fotos uno tamaño full y otro en tamaño large</h4>
+    <div class="gallery">
+        <div class="img-container">
+            <img src="preview/arbol_pequeño.jpg" alt="This is a tree" data-original="arbol_grande.jpg">
+        </div>
+        <div class="img-container">
+            <img src="preview/auto_pequeño.jpg" alt="This is a girl" data-original="auto_grande.jpg">
+        </div>
+        <div class="img-container">
+            <img src="preview/callejon_pequeño.jpg" alt="This is a street" data-original="callejon_grande.jpg">
+        </div>
+        <div class="img-container">
+            <img src="preview/torre_pequeña.jpg" alt="This is a tower eiffel" data-original="torre_grande.jpg">
+        </div>
+    </div>
+    <!--Modal al abrir la imagen-->
+    <div class="modal">
+        <img src="" alt="" class="full-img">
+        <p class="caption"></p>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
